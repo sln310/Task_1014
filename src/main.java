@@ -12,18 +12,17 @@ public class main {
 
     do {
 
-    // create an object of Scanner class
+    
     System.out.println("Please type the first number");
     Scanner scan1 = new Scanner(System.in);
     num1 = scan1.nextDouble();
 
 
-    // ask users to enter operator
     System.out.println("Choose an operation:" + "\n" + "> Type + for addition" + "\n" + "> Type - for subtraction" + "\n" + "> Type * for multiplication" + "\n" + "> Type / for division");
     Scanner scan2 = new Scanner(System.in);
     operator = scan2.next().charAt(0);
 
-    // ask users to enter numbers
+    
     System.out.println("Please type the secound number");
     Scanner scan3 = new Scanner(System.in);
     num2 = scan3.nextDouble();
